@@ -1,0 +1,170 @@
+body {
+    padding-bottom: 80px;
+    background-image: url('../assets/pkbg.jpg');
+    background-position: 50% 20%;
+    min-height: 800px;
+    background-size: cover;
+}
+
+body.aim {
+    background-image: url('../assets/pkbg2.jpg');
+    background-position: center;
+}
+
+body.route {
+    background-image: url('../assets/pkbg3.jpg');
+    background-position: center;
+}
+
+body.charity {
+    background-image: url('../assets/pkbg4.jpg');
+    background-position: center;
+}
+
+body.dates {
+    background-image: url('../assets/pkbg5.jpg');
+    background-position: center;
+}
+
+body.pokechestmain {
+    background-image: url('../assets/pkaotebg.jpg');
+    background-position: center;
+}
+
+body.pokechesttypes {
+    background-image: url('../assets/pkaotebg.jpg');
+    background-position: center;
+}
+
+
+body.pokemontypes {
+    background-image: url(../assets/pkaotebg.jpg);
+    background-position: center;
+}
+
+body.originalpkchestinfo {
+    background-image: url(../assets/pkballbg.jpg);
+    background-position: center;
+}
+
+body.greatpkchestinfo {
+    background-image: url(../assets/grtballbg.png);
+    background-position: center;
+}
+
+body.ultrapkballinfo {
+    background-image: url(../assets/ultballbg.png);
+    background-position: center;
+}
+
+body.masterpkchestinfo {
+    background-image: url(../assets/mastballbg.png);
+    background-position: center;
+}
+
+/*generation mods*/
+body.gen1kanto {
+    background-image: url(../assets/kantobg.jpg);
+    background-position: center;
+}
+
+body.gen2johto {
+    background-image: url(../assets/johtobg.jpg);
+    background-position: center;
+}
+
+body.gen3hoenn {
+    background-image: url(../assets/hoennbg.jpg);
+    background-position: center;
+}
+
+body.gen4sinnoh {
+    background-image: url(../assets/sinnohbg.jpg);
+    background-position: center;
+}
+
+
+/*header mods*/
+.brand-img {
+    position: absolute;
+    bottom: 0;
+}
+
+/*home page mods*/
+.page-header {
+    background: #ffffff;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+/*charity page mods*/
+body.charity .page-header .small {
+    color: #333;
+}
+
+/*aim of the event page mods*/
+.button-frame {
+    text-align: center;
+}
+
+/*poke chest main page mods*/
+.chst button-frame {
+    text-align: center;
+}
+
+
+/*about page mods*/
+.page-header{
+    margin-top: 0;
+}
+
+.panel-body{
+    padding-bottom: 0;
+}
+
+.featuredImg{
+    padding-bottom: 15px;
+}
+
+/*services page mods*/
+.InformationButton {
+    margin-bottom: 15px;
+}
+
+/*times page mods*/
+.event-info {
+    font-size: 65%;
+    text-align: left;
+}
+
+.timetable {
+    font-size: 65%;
+    text-align: left;
+}
+
+/*pokemon info page mods*/
+.pkmn-info {
+    background: #ffffff;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.pkmn-info.img-responsive {
+    margin: 0 auto;
+}
+
+/*footer mods*/
+.footer {
+    padding: 5px;
+}
+
+.footer-container {
+    background-color: #0000FF !important;
+}
+
+.footer .navbar-text, .footer .contact-btn-frame .btn {
+    line-height: 64px;
+}
+
+.footer .contact-btn-frame .btn {
+    padding-left: 36px;
+    padding-right: 36px;
+}

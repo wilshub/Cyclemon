@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pokemon Cyclemon Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!--Fontawesome-->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <!--My Style Sheet-->
+    <link href="css/mystyle.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+    <div class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <img src="assets/pkcsmall.png" alt="Cyclemon" class="pull-left brand-img" />
+            </a>
+            <!--Collapse Menu Trigger-->
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button> 
+            <div class="collapse navbar-collapse navHeaderCollapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="the%20route.html">The Route</a></li>
+                    <li><a href="aim%20of%20the%20event.html">Aim Of The Event</a></li>
+                    <li><a href="charity.html">Charity </a></li>
+                    <li><a href="datestimes.html">Dates And Times</a></li>
+                    <li><a href="#contact" data-toggle="modal">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+        
+    <!--Grid System-->
+    <div class="container body">
+        <p class="h1 text-center page-header">Welcome to the official website for Cyclemon: the UK's first annual, long-distance cycle route in the theme of the beloved Japanese cartoon and video game series Pokemon!</p>
+        <p class="h2 text-center page-header">This website gives clear information on where this poke-tastic challenge of a route takes you, what spectacular treasures need to be found, how this cycling event helps raise money for charity and just how much skill, determination and strength is needed to complete a daring trainer's journey around the length of Britian, to once again become the very best like no one ever was!</p>
+        <div class="row">
+          <div class="col-xs-12">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+                    </ol>
+
+                    <!-- Wrapper For Slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img class="img-responsive" src="assets/pkcrselbg1.jpg" alt="londoncarouselpic">
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="assets/pkcrselbg2.jpg" alt="lochnesscarouselpic">
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="assets/pkcrselbg3.jpg" alt="stonehengecarouselpic">
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="assets/pkcrselbg4.jpg" alt="selfridgescarouselpic">
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="assets/pkcrselbg5.jpg" alt="hardknottpasscarouselpic">
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="assets/pkcrselbg6.jpg" alt="altontowerscarouselpic">
+                        </div>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                 </div>
+            </div>   
+        </div>
+        <p class="h3 text-center page-header">Use the navigation bar at the top of the screen to travel through the site for the information you so desire to catch.</p>
+    </div>
+  
+    
+    <!--Footer-->
+    <div class="navbar navbar-default navbar-fixed-bottom footer-container">
+        <div class="container footer">
+            <p class="navbar-text">Site Built By Daniel Wilson</p>
+            <div class="contact-btn-frame">
+                <a href="#contact" data-toggle="modal" class="navbar-btn btn btn-info pull-right">Contact Us</a>
+            </div>
+            <a href="https://en-gb.facebook.com/">
+                <img src="assets/social-media/facebook.png" alt="Cyclemon on Facebook" />
+            </a>
+            <a href="https://twitter.com/?lang=en"> 
+                <img src="assets/social-media/twitter.png" alt="Cyclemon on Twitter" />
+            </a>
+            <a href="https://www.instagram.com/?hl=en">
+                <img src="assets/social-media/instagram.png" alt="Cyclemon on Instagram" />
+            </a>
+            <a href="https://www.youtube.com/">
+                <img src="assets/social-media/youtube.png" alt="Cyclemon on Youtube" />
+            </a>
+        </div>
+    </div>
+
+    <!--modal-->
+        <div class="modal fade" id="contact" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    
+                    <!--Modal Form Start-->
+                <form class="form-horizontal">
+                    <div class="modal-header"><!--HEADER-->
+                        <h3>Contact Us</h3>
+                    </div>
+                    <div class="modal-body"><!--BODY-->
+                        <div class="form-group"><!--Name-->
+                            <label for="contact-name" class="col-lg-2 control-label">Name</label>
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control" id="contact-name" placeholder="Full Name">
+                            </div>
+                        </div>
+                        <div class="form-group"><!--Email-->
+                            <label for="contact-email" class="col-lg-2 control-label">Email</label>
+                            <div class="col-lg-10">
+                                <input type="email" class="form-control" id="contact-email" placeholder="Email Address">
+                            </div>
+                        </div>
+                        <div class="form-group"><!--Message-->
+                            <label for="contact-msg" class="col-lg-2 control-label">Message</label>
+                            <div class="col-lg-10">
+                                <textarea class="form-control" rows="8"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="modal-footer"><!--FOOTER-->
+                        <a class="btn btn-success" type="submit">Submit</a>
+                        <a class="btn btn-default" data-dismiss="modal">
+                            Close
+                        </a>
+                    </div>
+                </form>
+                    <!--Modal Form End-->
+                    
+                </div>
+            </div>
+        </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

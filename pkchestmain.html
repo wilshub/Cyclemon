@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstap Project DW</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!--Fontawesome-->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <!--My Style Sheet-->
+    <link href="css/mystyle.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="pokechestmain">
+    <div class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <img src="assets/pkcsmall.png" alt="Cyclemon" class="pull-left brand-img" />
+            </a>
+            <!--collapse menu trigger-->
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button> 
+            <div class="collapse navbar-collapse navHeaderCollapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="aim%20of%20the%20event.html">Aim Of The Event</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#contact" data-toggle="modal">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+        
+    <!--Grid System-->
+    <p class="h1 text-center page-header">Poke Chests</p>
+    <p class="h3 text-center page-header">At every milestone of reaching each city, town and village on the route, there's what is known as a Poke Chest to be found somewhere. These Poke Chests are just like the normal average treasure chest, only instead of a thousand gold dubloons there are three images on the inside of the lid when unlocked and opened and also a stack of money.</p>
+    <p class="h3 text-center page-header">The three images show either one, two or three of 801 Pokemon types as well as 99 certain powerful items, such as poke balls and mega stones (making a total of 900 items - that's 300 chests for 300 places visited with 1 chest each). The images on the chest lid appear randomly in different ones, for example - one chest may contain 2 Pokemon and 1 item, another may contain 2 items and 1 Pokemon and another may just contain 3 Pokemon or 3 items.</p>
+    <p class="h3 text-center page-header">The stack of money found in each of the chests is collected by the cylists in order to count it towards the three big charity events. Also in support of this event, other citizens who live in the 300 places donate money by putting into the chests for the cylists to collect.</p>
+    <p class="h3 text-center page-header">Click on the buttons below to find out the different types of poke chests and all the 801 Pokemon and 99 items found in each chest along the route.</p>
+    
+
+    
+    <div class="chst button-frame">
+                <a href="chesttypesmain.html" class="navbar-btn btn btn-danger">Types Of Chests</a>
+                <a href="pokemontypes.html" class="navbar-btn btn btn-danger">Pokemon</a>
+                <a href="itemtypes.html" class="navbar-btn btn btn-danger">Items</a>
+            </div>
+    
+    <!--footer-->
+    <div class="navbar navbar-default navbar-fixed-bottom footer-container">
+        <div class="container footer">
+            <p class="navbar-text">Site Built By Daniel Wilson</p>
+            <div class="contact-btn-frame">
+                <a href="#contact" data-toggle="modal" class="navbar-btn btn btn-info pull-right">Contact Us</a>
+            </div>
+            <a href="https://en-gb.facebook.com/">
+                <img src="assets/social-media/facebook.png" alt="Cyclemon on Facebook" />
+            </a>
+            <a href="https://twitter.com/?lang=en"> 
+                <img src="assets/social-media/twitter.png" alt="Cyclemon on Twitter" />
+            </a>
+            <a href="https://www.instagram.com/?hl=en">
+                <img src="assets/social-media/instagram.png" alt="Cyclemon on Instagram" />
+            </a>
+            <a href="https://www.youtube.com/">
+                <img src="assets/social-media/youtube.png" alt="Cyclemon on Youtube" />
+            </a>
+        </div>
+    </div>
+
+    <!--modal-->
+        <div class="modal fade" id="contact" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    
+                    <!--Modal From Start-->
+                <form class="form-horizontal">
+                    <div class="modal-header"><!--HEADER-->
+                        <h3>Contact Us</h3>
+                    </div>
+                    <div class="modal-body"><!--BODY-->
+                        <div class="form-group"><!--Name-->
+                            <label for="contact-name" class="col-lg-2 control-label">Name</label>
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control" id="contact-name" placeholder="Full Name">
+                            </div>
+                        </div>
+                        <div class="form-group"><!--Email-->
+                            <label for="contact-email" class="col-lg-2 control-label">Email</label>
+                            <div class="col-lg-10">
+                                <input type="email" class="form-control" id="contact-email" placeholder="Email Address">
+                            </div>
+                        </div>
+                        <div class="form-group"><!--Message-->
+                            <label for="contact-msg" class="col-lg-2 control-label">Message</label>
+                            <div class="col-lg-10">
+                                <textarea class="form-control" rows="8"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="modal-footer"><!--FOOTER-->
+                        <a class="btn btn-success" type="submit">Submit</a>
+                        <a class="btn btn-default" data-dismiss="modal">
+                            Close
+                        </a>
+                    </div>
+                </form>
+                    <!--Modal Form End-->
+                    
+                </div>
+            </div>
+        </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

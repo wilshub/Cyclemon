@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstap Project DW</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!--Fontawesome-->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <!--My Style Sheet-->
+    <link href="css/mystyle.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="dates">
+    <div class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <img src="assets/pkcsmall.png" alt="Cyclemon" class="pull-left brand-img" />
+            </a>
+            <!--collapse menu trigger-->
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button> 
+            <div class="collapse navbar-collapse navHeaderCollapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="the%20route.html">The Route</a></li>
+                    <li><a href="aim%20of%20the%20event.html">Aim Of The Event</a></li>
+                    <li><a href="charity.html">Charity</a></li>
+                    <li><a href="#contact" data-toggle="modal">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+        
+    <!--Grid System-->
+ <div class="h1 text-center page-header">
+        <p>Dates And Times</p>
+        <p class="small">The dates and times for the beginning of the event and timetable for each day are shown below.</p>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <ul class="event-info">
+                    <li>The beginning of the Cyclemon event takes place on the 16th May.</li>
+                    <li>It will start at the University Of Greenwich, Greenwich, London at 8.00am.</li>
+                    <li>Cyclists participating in this event are advised to arrive at least 30 minutes earlier for easy preparation and in time for a 15-minute safety talk for when cycling on the route.</li>
+                </ul>
+               <div class="h2 text-left">
+                   <p>Timetable:</p>
+               </div>
+                <ul class="timetable">
+                    <li>Start Cycling (SC): 8.00am,</li>
+                    <li>(2½ Hours)</li>
+                    <li>Morning Break (MB): 10.30am (+ 15 Mins),</li>
+                    <li>Continue Cycling: 10.45am,</li>
+                    <li>(1¾ Hours)</li>
+                    <li>Lunch Stop (LS): 12.30pm (+ 1 Hour),</li>
+                    <li>Continue Cycling: 1.30pm,</li>
+                    <li>(2½ Hours)</li>
+                    <li>Afternoon Break (AB): 4.00pm (+ 15 Mins),</li>
+                    <li>Continue Cycling: 4.15pm,</li>
+                    <li>(2¾-4¾ Hours)</li>
+                    <li>End Cycling (EC): 7.00pm-9.00pm.</li>
+                </ul>
+                <div class="h2 text-left">
+                   <p>What Is Required:</p>
+               </div>
+                <ul class="timetable">
+                    <li>To be able to tackle this long-distance cycle route with ease, cyclists need: </li>
+                    <li>To have the right sort of clothing for each types of weather </li>
+                    <li>Bring their own safety equipment (crash helmets are essential) </li>
+                    <li>Have a good level of fitness, high energy and skill of cycling; </li>
+                    <li>The ability to cycle up and down steep hills; </li>
+                    <li>To be prepared and have the right mind for each cycling day at all times; </li>
+                    <li>Awareness of the dangers and precautions of some areas; </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!--footer-->
+   <div class="navbar navbar-default navbar-fixed-bottom footer-container">
+        <div class="container footer">
+            <p class="navbar-text">Site Built By Daniel Wilson</p>
+            <div class="contact-btn-frame">
+                <a href="#contact" data-toggle="modal" class="navbar-btn btn btn-info pull-right">Contact Us</a>
+            </div>
+            <a href="https://en-gb.facebook.com/">
+                <img src="assets/social-media/facebook.png" alt="Cyclemon on Facebook" />
+            </a>
+            <a href="https://twitter.com/?lang=en"> 
+                <img src="assets/social-media/twitter.png" alt="Cyclemon on Twitter" />
+            </a>
+            <a href="https://www.instagram.com/?hl=en">
+                <img src="assets/social-media/instagram.png" alt="Cyclemon on Instagram" />
+            </a>
+            <a href="https://www.youtube.com/">
+                <img src="assets/social-media/youtube.png" alt="Cyclemon on Youtube" />
+            </a>
+        </div>
+    </div>
+
+    <!--modal-->
+        <div class="modal fade" id="contact" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    
+                    <!--Modal From Start-->
+                <form class="form-horizontal">
+                    <div class="modal-header"><!--HEADER-->
+                        <h3>Contact Us</h3>
+                    </div>
+                    <div class="modal-body"><!--BODY-->
+                        <div class="form-group"><!--Name-->
+                            <label for="contact-name" class="col-lg-2 control-label">Name</label>
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control" id="contact-name" placeholder="Full Name">
+                            </div>
+                        </div>
+                        <div class="form-group"><!--Email-->
+                            <label for="contact-email" class="col-lg-2 control-label">Email</label>
+                            <div class="col-lg-10">
+                                <input type="email" class="form-control" id="contact-email" placeholder="Email Address">
+                            </div>
+                        </div>
+                        <div class="form-group"><!--Message-->
+                            <label for="contact-msg" class="col-lg-2 control-label">Message</label>
+                            <div class="col-lg-10">
+                                <textarea class="form-control" rows="8"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="modal-footer"><!--FOOTER-->
+                        <a class="btn btn-success" type="submit">Submit</a>
+                        <a class="btn btn-default" data-dismiss="modal">
+                            Close
+                        </a>
+                    </div>
+                </form>
+                    <!--Modal Form End-->
+                    
+                </div>
+            </div>
+        </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
